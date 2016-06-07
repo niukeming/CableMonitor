@@ -1,0 +1,27 @@
+﻿生成启动时间为 2016/6/6 16:07:50。
+     1>项目“F:\work\2016code\CableMonitor\CableMonitor\CableMonitor.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing cablemonitor.h...
+         Uic'ing cablemonitor.ui...
+         Rcc'ing cablemonitor.qrc...
+     1>RCC : warning : No resources in 'F:\work\2016code\CableMonitor\CableMonitor\cablemonitor.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQml /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQuick /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_QUICK_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cablemonitor.cpp GeneratedFiles\Debug\moc_cablemonitor.cpp main.cpp
+         cablemonitor.cpp
+         moc_cablemonitor.cpp
+         main.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQml /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQuick /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_QUICK_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_cablemonitor.cpp
+         qrc_cablemonitor.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\work\2016code\CableMonitor\Win32\Debug\\CableMonitor.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.1\5.5\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Qmld.lib Qt5Quickd.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\work\2016code\CableMonitor\Win32\Debug\CableMonitor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\work\2016code\CableMonitor\Win32\Debug\CableMonitor.lib" /MACHINE:X86 /SAFESEH Debug\cablemonitor.obj
+         Debug\moc_cablemonitor.obj
+         Debug\qrc_cablemonitor.obj
+         Debug\main.obj
+     1>Qt5Widgetsd.lib(Qt5Widgetsd.dll) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“X86”冲突
+     1>已完成生成项目“F:\work\2016code\CableMonitor\CableMonitor\CableMonitor.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.33
