@@ -33,6 +33,9 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Source Files\MainForm">
+      <UniqueIdentifier>{d8e2f884-2ae5-4c50-846c-034e4e7346f8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -50,6 +53,24 @@
     <ClCompile Include="GeneratedFiles\qrc_cablemonitor.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainForm.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainForm.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BaseWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BaseWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm\BaseWindow.cpp">
+      <Filter>Source Files\MainForm</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm\MainForm.cpp">
+      <Filter>Source Files\MainForm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="cablemonitor.h">
@@ -60,6 +81,12 @@
     </CustomBuild>
     <CustomBuild Include="cablemonitor.qrc">
       <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainForm\BaseWindow.h">
+      <Filter>Source Files\MainForm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainForm\MainForm.h">
+      <Filter>Source Files\MainForm</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>

@@ -10,7 +10,7 @@ class CableMonitor : public QMainWindow
 
 public:
 	CableMonitor(QWidget *parent = 0);
-	~CableMonitor();
+	~CableMonitor();//
 
 private:
 	Ui::CableMonitorClass ui;
