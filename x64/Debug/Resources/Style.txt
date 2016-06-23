@@ -1,0 +1,45 @@
+*{  
+  font-size:13px;  
+  color:black;  
+
+}  
+
+QWidget#MainForm
+{
+  background: rgb(33,31,31);
+}
+
+
+QLabel#m_proj_label
+{
+	color:#cccccc;
+	font-size:25px;
+	font-weight:bold;
+	font-family:微软雅黑;
+}
+
+QHBoxLayout#m_Layout 
+{
+	margin-left: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+QPushButton#m_settings,#m_minBtn,#m_closeBtn 
+{
+	margin-top: 20px;
+	padding: 10px,10px,0px,0px;	
+
+}
+.QPushButton[focusPolicy="0"] 
+{
+	border-style: none;
+	border: 0px;
+	color: #F0F0F0;
+	padding: 0px;	
+	min-height: 10px;
+	border-radius:3px;
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #1B89CA, stop:1 #1077B5); 
+}

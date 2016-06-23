@@ -1,0 +1,47 @@
+﻿生成启动时间为 2016/6/21 17:01:16。
+     1>项目“F:\work\2016code\CableMonitor\CableMonitor\CableMonitor.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing cablemonitor.h...
+         Uic'ing cablemonitor.ui...
+         Moc'ing PushButton.h...
+         Moc'ing TitleWidget.h...
+         Moc'ing BaseWindow.h...
+         Moc'ing MainForm.h...
+         Rcc'ing cablemonitor.qrc...
+     1>RCC : warning : No resources in 'F:\work\2016code\CableMonitor\CableMonitor\cablemonitor.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQml /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQuick /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_QUICK_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt cablemonitor.cpp GeneratedFiles\Release\moc_BaseWindow.cpp GeneratedFiles\Release\moc_cablemonitor.cpp GeneratedFiles\Release\moc_MainForm.cpp GeneratedFiles\Release\moc_PushButton.cpp GeneratedFiles\Release\moc_TitleWidget.cpp main.cpp MainForm\BaseWindow.cpp MainForm\MainForm.cpp MainForm\TitleWidget.cpp Parts\PushButton.cpp
+         cablemonitor.cpp
+         moc_BaseWindow.cpp
+         moc_cablemonitor.cpp
+         moc_MainForm.cpp
+         moc_PushButton.cpp
+         moc_TitleWidget.cpp
+         main.cpp
+         BaseWindow.cpp
+         MainForm.cpp
+         TitleWidget.cpp
+         PushButton.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQml /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQuick /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_QUICK_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_cablemonitor.cpp
+         qrc_cablemonitor.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\work\2016code\CableMonitor\x64\Release\\CableMonitor.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.1\5.5\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Qml.lib Qt5Quick.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"F:\work\2016code\CableMonitor\x64\Release\CableMonitor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\work\2016code\CableMonitor\x64\Release\CableMonitor.lib" /MACHINE:X64 x64\Release\cablemonitor.obj
+         x64\Release\qrc_cablemonitor.obj
+         x64\Release\moc_BaseWindow.obj
+         x64\Release\moc_cablemonitor.obj
+         x64\Release\moc_MainForm.obj
+         x64\Release\moc_PushButton.obj
+         x64\Release\moc_TitleWidget.obj
+         x64\Release\main.obj
+         x64\Release\BaseWindow.obj
+         x64\Release\MainForm.obj
+         x64\Release\TitleWidget.obj
+         x64\Release\PushButton.obj
+         CableMonitor.vcxproj -> F:\work\2016code\CableMonitor\x64\Release\CableMonitor.exe
+     1>已完成生成项目“F:\work\2016code\CableMonitor\CableMonitor\CableMonitor.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:19.19

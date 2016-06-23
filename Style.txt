@@ -1,0 +1,10 @@
+*{  
+  font-size:13px;  
+  color:black;  
+
+}  
+
+QWidget#MainForm
+{
+  background: rgb(33,31,31);
+}

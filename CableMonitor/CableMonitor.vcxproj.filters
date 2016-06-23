@@ -36,6 +36,12 @@
     <Filter Include="Source Files\MainForm">
       <UniqueIdentifier>{d8e2f884-2ae5-4c50-846c-034e4e7346f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Parts">
+      <UniqueIdentifier>{eaddcea1-95a2-48c4-94f7-6fc9d056feba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SubWidget">
+      <UniqueIdentifier>{52bdf60e-3445-4acc-a9b3-16a837ca9209}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -71,6 +77,42 @@
     <ClCompile Include="MainForm\MainForm.cpp">
       <Filter>Source Files\MainForm</Filter>
     </ClCompile>
+    <ClCompile Include="MainForm\TitleWidget.cpp">
+      <Filter>Source Files\MainForm</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TitleWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts\PushButton.cpp">
+      <Filter>Source Files\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PushButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TitleWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PushButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm\TabWidget.cpp">
+      <Filter>Source Files\MainForm</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TabWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="SubWidget\WireNetWidget.cpp">
+      <Filter>Source Files\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm\controlpanel.cpp">
+      <Filter>Source Files\MainForm</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_controlpanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_controlpanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="cablemonitor.h">
@@ -88,10 +130,25 @@
     <CustomBuild Include="MainForm\MainForm.h">
       <Filter>Source Files\MainForm</Filter>
     </CustomBuild>
+    <CustomBuild Include="MainForm\TitleWidget.h">
+      <Filter>Source Files\MainForm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Parts\PushButton.h">
+      <Filter>Source Files\Parts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainForm\TabWidget.h">
+      <Filter>Source Files\MainForm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainForm\controlpanel.h">
+      <Filter>Source Files\MainForm</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_cablemonitor.h">
       <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubWidget\WireNetWidget.h">
+      <Filter>Source Files\SubWidget</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

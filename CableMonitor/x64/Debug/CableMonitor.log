@@ -1,20 +1,31 @@
-﻿生成启动时间为 2016/6/21 10:58:42。
+﻿生成启动时间为 2016/6/23 14:14:02。
      1>项目“F:\work\2016code\CableMonitor\CableMonitor\CableMonitor.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQml /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQuick /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_QUICK_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
-         main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQml /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQuick /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_QUICK_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt MainForm\controlpanel.cpp
+         controlpanel.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQml /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQuick /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_QUICK_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_cablemonitor.cpp
+         qrc_cablemonitor.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\work\2016code\CableMonitor\x64\Debug\\CableMonitor.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.1\5.5\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Qmld.lib Qt5Quickd.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\work\2016code\CableMonitor\x64\Debug\CableMonitor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\work\2016code\CableMonitor\x64\Debug\CableMonitor.lib" /MACHINE:X64 x64\Debug\cablemonitor.obj
          x64\Debug\moc_BaseWindow.obj
          x64\Debug\moc_cablemonitor.obj
+         x64\Debug\moc_controlpanel.obj
          x64\Debug\moc_MainForm.obj
+         x64\Debug\moc_PushButton.obj
+         x64\Debug\moc_TabWidget.obj
+         x64\Debug\moc_TitleWidget.obj
          x64\Debug\qrc_cablemonitor.obj
          x64\Debug\main.obj
          x64\Debug\BaseWindow.obj
+         x64\Debug\controlpanel.obj
          x64\Debug\MainForm.obj
+         x64\Debug\TabWidget.obj
+         x64\Debug\TitleWidget.obj
+         x64\Debug\PushButton.obj
+         x64\Debug\WireNetWidget.obj
          CableMonitor.vcxproj -> F:\work\2016code\CableMonitor\x64\Debug\CableMonitor.exe
      1>已完成生成项目“F:\work\2016code\CableMonitor\CableMonitor\CableMonitor.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:02.50
+已用时间 00:00:02.61
